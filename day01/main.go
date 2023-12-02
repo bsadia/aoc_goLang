@@ -71,11 +71,7 @@ func main() {
 		line := scanner.Text()
 
 		combinedDigits := part_1(line)
-		if err == nil {
-			sum_part1 += combinedDigits
-		} else {
-			fmt.Println("Error processing line:", err)
-		}
+		sum_part1 += combinedDigits
 
 		combinedDigits = part_2(line)
 		sum_part2 += combinedDigits
