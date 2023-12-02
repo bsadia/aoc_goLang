@@ -54,7 +54,7 @@ func part_2(line string) (combinedDigits int) {
 func main() {
 
 	// For this problem, we will read one line at a time from the input file and process it
-	file, err := os.Open("day01_input.txt")
+	file, err := os.Open("day01/input.txt")
 	if err != nil {
 		fmt.Println("Error opening file:", err)
 		return
